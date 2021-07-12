@@ -10,7 +10,7 @@ class BooksController < ApplicationController
   def create
     book = Book.new(book_params)
     book.save
-    redirect_to '/save'
+    redirect_to '/index'
   end
 
   
